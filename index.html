@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Inspiration: A Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <h1>Quotes of the day</h1>
+        </div>
+        <div class="card-body">
+          <blockquote>
+            <div id="quote-text"></div>
+            <cite id="quote-author"></cite>
+          </blockquote>
+          <div class="buttons">
+            <button id="new-quote" onclick="getQuote()">New Quote</button>
+          </div>
+        </div>
+        <div class="card-footer">
+          <p>Made by <a  target="_blank">Alluri Jayanth</a></p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
